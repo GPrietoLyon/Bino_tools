@@ -22,8 +22,8 @@ class TelluricCorrection(object):
     Binospec telluric correction
     """
 
-    def __init__(self, calib_dir=os.environ['BINO_DIR']+'2649_BLAS_1/calib/',
-                transmission_filename='BLAS_2019A_transmission.txt', plot=False):
+    def __init__(self, calib_dir,
+                transmission_filename, plot=False):
         """
         Input wavelength array must = transmission wavelength array
         """
